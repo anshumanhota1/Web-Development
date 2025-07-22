@@ -1,4 +1,4 @@
-# ?? Web Development Project
+ ?? Web Development Project
 
 <!-- Main banner -->
 ![Web Dev Banner](https://raw.githubusercontent.com/anshumanhota1/Web?Development/main/assets/banner.png)
@@ -7,7 +7,7 @@ Welcome to the **Web?Development** repository! This repo features a collection o
 
 ---
 
-## ?? Project Structure
+ ?? Project Structure
 
 Web?Development/
 ??? assets/
@@ -30,7 +30,7 @@ Web?Development/
 
 ---
 
-## ? Features
+? Features
 
 - Responsive layouts using **HTML5 & CSS3**
 - Dynamic interactivity with plain **JavaScript / ES6**
@@ -40,7 +40,7 @@ Web?Development/
 
 ---
 
-## ??? Screenshots
+??? Screenshots
 
 **?? Desktop View**  
 ![Desktop Screenshot](https://raw.githubusercontent.com/anshumanhota1/Web?Development/main/assets/screenshots/homepage.png)
@@ -50,7 +50,7 @@ Web?Development/
 
 ---
 
-## ?? Getting Started
+?? Getting Started
 
 ### 1. Clone the repo
 
