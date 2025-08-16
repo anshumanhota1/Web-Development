@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Specificity= Inline style> ID Selector> Class or Atribute Selector> Element Selector> Universal Selector.   */
+
+      /* Specificity Calculation:-
+        Universal Selector: 0
+        Elements selectors and pseudo-elements: 1
+        Class selectors, attribute selectors, and pseudo-class: 10
+        ID Selectors: 100
+        Inline style: 100
+        Then, add up the values of all the parts in selector. */
+
+      .yellow {
+        color: yellow;
+      }
+      .cpurple {
+        color: purple;
+      }
+      .cred {
+        color: red;
+      }
+      h1 {
+        color: aqua;
+      }
+      [anshu-bubun="anshuman"] {
+        background-color: blueviolet;
+      }
+      /* anshu-bubun="anshuman" ---- attribute selector */
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 class="yellow cred cpurple" anshu-bubun="anshuman">
+        CSS Specificity
+      </h1>
+    </div>
+  </body>
+</html>
