@@ -1,0 +1,76 @@
+  body {
+        background-color: bisque;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: auto;
+      }
+
+      .card {
+        background-color: lab(70.41% 21.44 71.25);
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        width: 320px;
+      }
+
+      .card img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 20px;
+        display: flex;
+        margin: 10px;
+      }
+
+      .card-content {
+        padding: 20px;
+      }
+
+      .tags {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+      }
+
+      .tag {
+        background-color: white;
+        color: black;
+        padding: 4px 12px;
+        border-radius: 10000px;
+        font-size: 12px;
+        font-weight: 500;
+      }
+
+      .title {
+        font-size: 22px;
+        font-weight: 600;
+        color: black;
+        margin: 10px 0;
+      }
+
+      .discription {
+        color: #6b7290;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+      .read-more {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 20px;
+        background-color: #bbcfe9;
+        color: blue;
+        border: none;
+        border-radius: 10000px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        transition: background-color 0.3s ease;
+      }
+
+      .read-more:hover {
+        background-color: #bfdbfe;
+      }
