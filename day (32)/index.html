@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Brighton Public School - Admit Card</title>
+    <style>
+      :root {
+        /* Fonts */
+        --main-font: "Georgia", serif;
+
+        /* Colors */
+        --bg-color: #e6dfbb;
+        --card-bg: #f4f1dc;
+        --text-color: #000;
+        --button-gradient-start: #cde3f6;
+        --button-gradient-end: #6fa3cf;
+        --button-border-color: #2a4a78;
+
+        /* Sizes */
+        --card-width: 700px;
+        --logo-width: 137px;
+        --logo-height: 120px;
+        --heading-font-size: 40px;
+        --address-font-size: 22px;
+        --exam-title-font-size: 22px;
+        --info-font-size: 22px;
+      }
+
+      body {
+        font-family: var(--main-font);
+        background-color: var(--bg-color);
+        box-sizing: border-box;
+      }
+
+      .admit-card {
+        width: var(--card-width);
+        margin: auto;
+        padding: 40px;
+        background-color: var(--card-bg);
+        border: 1px solid #333;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      /* HEADER SECTION */
+      .header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
+      .logo {
+        width: var(--logo-width);
+        height: var(--logo-height);
+        margin-right: -66px;
+      }
+
+      .school-details {
+        flex-grow: 1;
+      }
+
+      .school-name {
+        font-size: var(--heading-font-size);
+        font-weight: bold;
+        margin: 0;
+        text-align: center;
+      }
+
+      .address {
+        font-style: italic;
+        font-size: var(--address-font-size);
+        margin: 4px 0;
+        text-align: center;
+      }
+
+      .exam-title {
+        font-size: var(--exam-title-font-size);
+        font-weight: bold;
+        margin: 0;
+        text-align: center;
+      }
+
+      .button-wrapper {
+        text-align: center;
+        margin: 10px 0 20px;
+      }
+
+      .admit-button {
+        display: inline-block;
+        padding: 6px 18px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: var(--main-font);
+        color: var(--text-color);
+        background: linear-gradient(
+          to bottom,
+          var(--button-gradient-start) 0%,
+          var(--button-gradient-end) 100%
+        );
+        border: 2px solid var(--button-border-color);
+        border-radius: 12px;
+        box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.8),
+          0 2px 4px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+      }
+
+      /* STUDENT INFO SECTION */
+      .info-section {
+        margin-top: 18px;
+        font-size: var(--info-font-size);
+        line-height: 2;
+      }
+
+      .label {
+        font-weight: bold;
+      }
+
+      /* SIGNATURE SECTION */
+      .signature-section {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+        padding: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="admit-card">
+      <!-- Header with logo and school details -->
+      <div class="header">
+        <img
+          src="https://static.vecteezy.com/system/resources/thumbnails/026/128/490/small_2x/school-building-icon-in-flat-style-college-education-illustration-with-long-shadow-bank-government-business-concept-vector.jpg"
+          alt="School Logo"
+          class="logo"
+        />
+        <div class="school-details">
+          <p class="school-name">Brighton Public School</p>
+          <p class="address">At+Post - Nagdah Balain, Madhubani</p>
+          <p class="exam-title">1st Term Examination 2019</p>
+        </div>
+      </div>
+
+      <!-- Admit Card Button -->
+      <div class="button-wrapper">
+        <div class="admit-button">Admit Card</div>
+      </div>
+
+      <!-- Student Info -->
+      <div class="info-section">
+        <p>
+          <span class="label">Student's Name:</span>
+          .....................................................................................
+        </p>
+        <p>
+          <span class="label">Father's Name:</span>
+          .......................................................................................
+        </p>
+        <p>
+          <span class="label">Class:</span> ............................
+          <span class="label">Roll No:</span> ..........................
+          <span class="label">Sec:</span> ........................
+        </p>
+      </div>
+
+      <!-- Signatures -->
+      <div class="signature-section">
+        <div>Exam Controller</div>
+        <div><strong>Principal</strong></div>
+      </div>
+    </div>
+  </body>
+</html>
